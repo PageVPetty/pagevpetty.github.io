@@ -1,1 +1,15 @@
+body {
+  font-family: sans-sarif;
+  margin: 0;
+  padding: 50px;
+}
 
+#board {
+  width:306px;
+}
+
+#board div {
+  border: 1px solid #ccc;
+  float: left:
+  height: 100px;
+  width: 100px;
