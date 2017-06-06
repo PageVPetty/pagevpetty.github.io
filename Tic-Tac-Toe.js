@@ -1,13 +1,14 @@
+var player = 1;
+var tiles = document.querySelectorAll("#board > div");
 
-console.log("loaded!");
-
-var titles = document.querySelectorAll("#board > div");
-
-tiles.forEach(function (title) {
+tiles.forEach(function (tile) {
   tile.onclick = function () {
-    console.log(title);
-    title.style.backgroundColor = "gray";
-    title.classList.add("myClass");
+    console.log(tile);
+    tile.style.backgroundColor = "gray";
+    tile.classList.add("myClass");
+    if (player == 1) {
+      ....
+    tile.innerHTML = "X";
   };
   
 });
