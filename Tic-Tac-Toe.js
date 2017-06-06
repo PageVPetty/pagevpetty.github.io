@@ -30,7 +30,7 @@ var checkWinner = function () {
   var col2 = checkTiles(document.querySelectorAll(".col2"), symbol;
   var col3 = checkTiles(document.querySelectorAll(".col3"), symbol;
   var diag1 = checkTiles(document.querySelectorAll(".diag1"), symbol;
-  var diag2 = checkTiles(document.querySelectorAll(".diag2), symbol;                                                  
+  var diag2 = checkTiles(document.querySelectorAll(".diag2"), symbol;                                                  
                         
                                                   
         
