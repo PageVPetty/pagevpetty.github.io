@@ -1,3 +1,11 @@
+var grid = new Grid({rows: 3, cols: 3});
+
+
+
+
+
+
+
 var r1, r2;
 
 var button = document.querySelector("#checkAnswer");
