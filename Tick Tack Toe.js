@@ -1,5 +1,11 @@
 
-var grid = new Grid({rows: 3, cols: 3});
-grid.render({placeholder: "#tictactoe"});
+console.log("loaded!");
 
+var titles = document.querySelectorAll("#board > div");
+
+tiles.forEach(function (title) {
+  tile.onclick = function () {
+  };
+  
+});
 
