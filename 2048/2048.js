@@ -9,7 +9,7 @@ for (var i = 0; i <4; i++) {
   
 
 for (var j = 0; j <4; j++) {
-  var rowDiv = document.createElement("div");
+  var tileDiv = document.createElement("div");
   tileDive.classList.add("tile");
   rowDiv.appendChild(tileDiv);  
   
