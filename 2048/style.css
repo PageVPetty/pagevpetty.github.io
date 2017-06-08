@@ -301,7 +301,7 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: rgba(238, 228, 218, 0.35); }
+  background: #f7bae7; }
   .grid-cell:last-child {
     margin-right: 0; }
 
