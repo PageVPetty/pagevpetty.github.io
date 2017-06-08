@@ -17,7 +17,7 @@ var createBoard = function () {
     for (var col = 0; col <4; col++) {
       var tileDiv = document.createElement("td");
       var key = tileKey(col, row);
-      tileDiv.id = = key;
+      tileDiv.id == key;
       tileDiv.classList.add("tile");
       tableRow.appendChild(tileDiv);
     }
