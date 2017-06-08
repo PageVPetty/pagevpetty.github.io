@@ -1,14 +1,15 @@
-#!/bin/zsh
-function {
-	local msg
+#!/bin/bash
+function repl {
+	typeset -l msg
 	git pull;
 	while true
 	do
-		read 'msg?Commit Message => '
+		read -p 'Commit Message => ' msg
 		git pull;
-		git add *(/);
+		git add */;
 		git commit -m "$msg" .;
 		git push;
 	done
 }
+repl
 		
