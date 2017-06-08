@@ -1,12 +1,10 @@
-* {
-	font-family: Georgia, sans;
-}
+
 html, body {
   margin: 0;
   padding: 0;
   background: #c9fdb4;
-  color: #776e65;
-  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  color: #0394e2;
+  font-family: Georgia, sans-serif;
   font-size: 18px; }
 
 body {
@@ -14,7 +12,7 @@ body {
 
 input {
   display: inline-block;
-  background: #8f7a66;
+  background: #0394e2;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -35,7 +33,7 @@ input {
     cursor: auto;
     background: #fcfbf9;
     font-weight: normal;
-    color: #776e65;
+    color: #0394e2;
     padding: 0 15px; }
     input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder {
       color: #9d948c; }
@@ -54,7 +52,8 @@ h1.title {
   font-weight: bold;
   margin: 0;
   display: block;
-  float: left; }
+  float: left;
+  color: #01314b;}
 
 @-webkit-keyframes move-up {
   0% {
@@ -87,7 +86,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #b4e4fe;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -135,7 +134,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: #776e65;
+  color: #0394e2;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
@@ -245,7 +244,7 @@ hr {
       margin-right: 5px; }
   .game-message a {
     display: inline-block;
-    background: #8f7a66;
+    background: #0394e2;
     border-radius: 3px;
     padding: 0 20px;
     text-decoration: none;
@@ -600,7 +599,7 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #8f7a66;
+  background: #b4e4fe;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -715,7 +714,7 @@ hr {
         margin-right: 5px; }
     .game-message a {
       display: inline-block;
-      background: #8f7a66;
+      background: #0394e2;
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
@@ -898,7 +897,7 @@ hr {
   font: inherit;
   color: inherit;
   display: inline-block;
-  background: #8f7a66;
+  background: #0394e2;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -914,7 +913,7 @@ hr {
   position: relative;
   margin-left: 10px;
   display: inline-block;
-  background: #8f7a66;
+  background: #b4e4fe;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
