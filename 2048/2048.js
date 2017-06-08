@@ -3,8 +3,8 @@ var board = {
 };
 
 var tileKey = function (col, row) {
-  return "tile" + col +
-}
+  return "tile" + col + "-" + row;
+};
 
 var createBoard = function () {
   var boardDiv = document.querySelector("#board");
