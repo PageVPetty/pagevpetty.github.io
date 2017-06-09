@@ -48,12 +48,13 @@ input {
   clear: both; }
 
 h1.title {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: bold;
   margin: 0;
   display: block;
   float: left;
-  color: #01314b;}
+  color: #8E0250;
+}
 
 @-webkit-keyframes move-up {
   0% {
