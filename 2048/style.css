@@ -594,7 +594,7 @@ hr {
   clear: both; }
 
 .game-intro {
-  color:  #8E0250;
+  color:  #0189e4;
   float: left;
   line-height: 42px;
   margin-bottom: 0; }
@@ -648,7 +648,7 @@ hr {
     margin-bottom: 10px; }
 
   .game-intro {
-    width: 75%;
+    width: 60%;
     display: block;
     box-sizing: border-box;
     line-height: 1.65; }
