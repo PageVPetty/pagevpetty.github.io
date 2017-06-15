@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "eslint-config-airbnb": "^15.0.1",
+    "prop-types": "^15.5.10",
+    "whatwg-fetch": "^2.0.3"
+  }
+}
